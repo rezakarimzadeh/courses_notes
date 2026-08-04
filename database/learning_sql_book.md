@@ -2,3 +2,5 @@ summary and the important points of the book "Learning SQL" by Alan Beaulieu [li
 
 ## Chapter 1: A little background [read notes of chapter 1](./learning_sql/chapter_1.md)
 
+## Chapter 2: Creating and populating a database [read notes of chapter 2](./learning_sql/chapter_2.md)
+
