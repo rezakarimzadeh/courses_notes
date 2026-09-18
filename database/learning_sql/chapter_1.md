@@ -12,16 +12,16 @@
 3. SQL transaction statements: **which are used to begin, end, and roll back transactions**
 
 ## some basic SQL statements
-
-- `SELECT`: **used to retrieve data from a database**
-- `FROM`: **used to specify the table from which to retrieve data**
-- `WHERE`: **used to filter records based on specified conditions**
-```sql
-SELECT /* one or more columns */ 
-FROM /* table name */ 
-WHERE /* condition */;
-```
 - `/* this is a comment in sql */`
+
+```sql
+CREATE TABLE /* table name */ (
+    /* column1 datatype constraints, */
+    /* column2 datatype constraints, */
+    /* ... */
+);  
+```
+
 
 - `INSERT`: **used to add new records to a table**
 ```sql
@@ -35,4 +35,16 @@ UPDATE /* table name */
 SET /* column1 = value1, column2 = value2, ... */
 WHERE /* condition */;
 ```
+
+- `SELECT`: **used to retrieve data from a database**
+- `FROM`: **used to specify the table from which to retrieve data**
+- `WHERE`: **used to filter records based on specified conditions**
+```sql
+SELECT /* one or more columns */ 
+FROM /* table name */ 
+WHERE /* condition */;
+```
+
+
+- A procedural language defines both the desired results and the mechanism, or process, by which the results are generated. Non‐procedural languages also define the desired results, but the process by which the results are generated is left to an external agent.
 
